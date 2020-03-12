@@ -1,13 +1,19 @@
-.header{
+ * {
+   margin: 0;
+ }
+ .header{
+  background-image: url('../Images/by-night-a5471f591321c33a6fcc760872ec328c.jpg');
+  background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: rgb(249, 201, 16);
     display: grid;
     grid-template-columns: 1fr 5fr;
 }
 .header .text-left{
     align-self: center;
-    font-family: HelveticaNeue-Regular;
-    color:#0a3dab;
-    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+    font-size: 35px;
 }
 
 ul {
